@@ -118,5 +118,125 @@
     "nombre": "Encuentro Cabernet Sauvignon",
     "imagen": "Encuentro-Cabernet-Sauvignon.webp",
     "notas": "Rojo rubí medio, con matiz violáceo. La nariz descubre una tenue fragancia frutal, amena y matizada con notas de especias y ahumados. En el paladar, este vino derrama sus distintos tonos de sabor, en los que prevalece una carga de taninos que tapizan largamente la boca y aseguran un retrogusto firme y fresco."
+    },
+    {
+    "id": 13,
+    "categoria": "Blanco",
+    "varietal": "Chardonnay",
+    "crianza": "10 meses roble francés",
+    "bodega": "Rutini wines",
+    "nombre": "Dominio Chardonnay",
+    "imagen": "Dominio-Chardonnay.webp",
+    "notas": "Amarillo pálido, con sutiles reflejos dorados y verdosos.Regala aromas típicos de regiones frías y zonas altas. Florales como el azahar, jazmín y acacia. Notas tropicales como el ananá y frutas de carozo. Se destacan las almendras tostadas y los toques de ahumados. En boca es vibrante, delicadamente mineral con un equilibrio perfecto entre frescura y untuosidad. Muy buena acidez y persistente final."
+    },
+    {
+    "id": 14,
+    "categoria": "Blanco",
+    "varietal": "Chardonnay",
+    "crianza": "6 meses roble francés",
+    "bodega": "Rutini wines",
+    "nombre": "Trumpeter Chardonnay",
+    "imagen": "Trumpeter-Chardonnay.webp",
+    "notas": "De color amarillo dorado con reflejos verdosos. Aromas a fruta de carozo como durazno maduro, manzana y notas tropicales de ananá. Es un vino elegante y de gran suavidad en boca, untuoso y con buen balance, con un fino marco mineral en su final."
+    },
+    {
+    "id": 15,
+    "categoria": "Blanco",
+    "varietal": "Chardonnay",
+    "crianza": "9 meses roble francés",
+    "bodega": "Rutini wines",
+    "nombre": "Rutini Chardonnay",
+    "imagen": "Rutini-Chardonnay.webp",
+    "notas": "Dorado, con marcados reflejos verdes. Aroma intensamente frutado. El contacto con la madera le confiere el suave dejo de vainilla que ennoblece su perfume a frutas tropicales. Es largo y complejo, de excelente frutosidad y gran persistencia en paladar. Un blanco fino y equilibrado."
+    },
+    {
+    "id": 16,
+    "categoria": "Blanco",
+    "varietal": "Chardonnay",
+    "crianza": "12 meses roble francés",
+    "bodega": "Rutini wines",
+    "nombre": "Apartado Gran Chardonnay",
+    "imagen": "Apartado-Gran-Chardonnay.webp",
+    "notas": "De color dorado intenso con reflejos verdosos. En nariz, ofrece aromas a frutas tropicales acompañadas con notas de vainilla y miel, aportadas por el tiempo de crianza en barrica.En boca, se confirma la paleta aromática de este vino untuoso, complejo y de persistente final."
+    },
+    {
+    "id": 17,
+    "categoria": "Blanco",
+    "varietal": "Viognier",
+    "crianza": "6 meses roble francés",
+    "bodega": "Rutini wines",
+    "nombre": "Trumpeter Reserve Viognier",
+    "imagen": "Trumpeter-Reserve-Viognier.webp",
+    "notas": "Amarillo verdoso, con reflejos dorados. Las notas florales ( Magnolia) sobresalen y aparecen amalgamadas junto a frescas frutas de carozo (durazno, damasco) y leves notas tropicales que recuerdan al ananá. En boca, es de gran untuosidad, envolvente y con un final perfumado y persistente."
+    },
+    {
+    "id": 18,
+    "categoria": "Blanco",
+    "varietal": "Pinot Grigio",
+    "crianza": "6 meses roble francés",
+    "bodega": "Rutini wines",
+    "nombre": "Trumpeter Reserve Pinot Grigio",
+    "imagen": "Trumpeter-Reserve-Pinot-Grigio.webp",
+    "notas": "Amarillo cristalino, con matices verdosos y dorados. Sus aromas remiten a frutas blancas y citrus, con un fino toque de anís. Fresco y untuoso, su óptima acidez descubre un final de boca franco, de muy buena persistencia."
+    },
+    {
+    "id": 19,
+    "categoria": "Blanco",
+    "varietal": "Blend (Chardonnay, Gewürztraminer, Riesling)",
+    "crianza": "12 meses roble francés",
+    "bodega": "Rutini wines",
+    "nombre": "Antología L",
+    "imagen": "Antologia-L.webp",
+    "notas": "Es un vino de color amarillo dorado con brillantes reflejos verdosos. En nariz se perciben los aromas exuberantes a melón fresco y durazno blanco, combinados con notas de frutas tropicales, compañía perfecta para las notas cítricas y florales. Su entrada dulce es equilibrada debido a su crianza en roble. Es un vino muy armonioso, elegante y cremoso con gran amplitud en boca, impacta con un toque dulce y una acidez refrescante."
+    },
+    {
+    "id": 20,
+    "categoria": "Blanco",
+    "varietal": "Torrontés",
+    "crianza": "6 meses roble francés",
+    "bodega": "Rutini wines",
+    "nombre": "Trumpeter Reserve Torrontés",
+    "imagen": "Trumpeter-Reserve-Torrontes.webp",
+    "notas": "Amarillo claro con matiz verdoso. Las notas florales combinadas con su perfil cítrico de gran delicadeza lo hacen un delicioso y elegante vino blanco. Su final es intenso, aromático y de gran persistencia."
+    },
+    {
+    "id": 21,
+    "categoria": "Espumantes",
+    "varietal": "Pinot Noir",
+    "crianza": "18 meses roble francés",
+    "bodega": "Rutini wines",
+    "nombre": "Dominio Brut Nature",
+    "imagen": "Dominio-Brut-Nature.webp",
+    "notas": "Tonos coral cobrizos con matices color piel de cebolla. Burbujas pequeñas y persistentes. En nariz posee una sutil complejidad aromática en las que se destacan notas florales y frutadas. En boca es elegante, fresco, de gran cremosidad y una acidez equilibrada."
+    },
+    {
+    "id": 22,
+    "categoria": "Espumantes",
+    "varietal": "Pinot Noir",
+    "crianza": "5 meses roble francés",
+    "bodega": "Rutini wines",
+    "nombre": "Trumpeter Brut Nature",
+    "imagen": "Trumpeter-Brut-Nature.webp",
+    "notas": "Dorado ámbar suave y brillante, con reflejos verdosos. Finas y permanentes burbujas aparecen en la copa, mientras se desprenden notas aromáticas de elegante complejidad en las que sobresale la del pan recién horneado. En boca fresco y equilibrado, refleja un balance bien logrado entre acidez y mínimo tenor de azúcar que nos deja un agradable final."
+    },
+    {
+    "id": 23,
+    "categoria": "Espumantes",
+    "varietal": "Pinot Noir, Chardonnay",
+    "crianza": "24 meses sobre lías",
+    "bodega": "Rutini wines",
+    "nombre": "Rutini Brut Nature",
+    "imagen": "Rutini-Brut-Nature.webp",
+    "notas": "Dorado con reflejos amarillo verdosos. Burbuja pequeña, perezosa y muy persistente. Nariz compleja, donde se integran armoniosamente el aroma de pan sin hornear con frutas ( ananá, durazno blanco). En boca se perciben notas cítricas y tostadas, con un final limpio y fresco."
+    },
+    {
+    "id": 24,
+    "categoria": "Espumantes",
+    "varietal": "Pinot Noir",
+    "crianza": "18 meses sobre lías",
+    "bodega": "Rutini wines",
+    "nombre": "Encuentro Brut Nature Pinot Noir",
+    "imagen": "Encuentro-Brut-Nature-Pinot-Noir.webp",
+    "notas": "Los límpidos tonos coral-cobrizo, con matices piel de cebolla, están atravesados por cordones de pequeñas burbujas finísimas y permanentes. La sutileza de sus aromas recuerdan a notas florales y frutas confitadas. Una sensación amplia y refrescante permanece en boca y denota el rastro vivaz de su magnífica acidez y el suave posgusto a frutos secos (avellana)."
     }
 ]
