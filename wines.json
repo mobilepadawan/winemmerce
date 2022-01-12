@@ -1,0 +1,122 @@
+[
+    {
+    "id": 1,
+    "categoria": "Tinto",
+    "varietal": "Malbec",
+    "crianza": "12 meses roble francés",
+    "bodega": "Rutini wines",
+    "nombre": "Dominio Malbec",
+    "imagen": "Dominio-Malbec.webp",
+    "notas": "Rojo granate límpido con reflejos violáceos. En nariz se destacan aromas frutales como la ciruela, florales como la violeta y un toque especiado de regaliz.En boca la tipicidad del varietal se presenta con sabores a fruta negra, jugoso, fresco y con una acidez equilibrada."
+    },
+    {
+    "id": 2,
+    "categoria": "Tinto",
+    "varietal": "Malbec",
+    "crianza": "14 meses roble francés",
+    "bodega": "Rutini wines",
+    "nombre": "Dominio Gran Malbec",
+    "imagen": "Dominio-Gran-Malbec.webp",
+    "notas": "Color rubí con reflejos violáceos. En nariz ofrece notas a frutos negros, florales y especiadas. De taninos amables en boca, jugoso, frutado y fresco. Elegante final, prolongado y placentero."
+    },
+    {
+    "id": 3,
+    "categoria": "Tinto",
+    "varietal": "Malbec",
+    "crianza": "7 meses roble francés y americano",
+    "bodega": "Rutini wines",
+    "nombre": "Trumpeter Malbec",
+    "imagen": "Trumpeter-Malbec.webp",
+    "notas": "De un impactante color violeta. Nariz frutal destacando ciruelas, cerezas y notas florales que nos recuerdan a las violetas. Posee gran cuerpo y su vivaz estructura acentúa sus taninos intensos que se vuelven aterciopelados en el retrogusto."
+    },
+    {
+    "id": 4,
+    "categoria": "Tinto",
+    "varietal": "Malbec",
+    "crianza": "12 meses roble francés",
+    "bodega": "Rutini wines",
+    "nombre": "Trumpeter Reserve Malbec",
+    "imagen": "Trumpeter-Reserve-Malbec.webp",
+    "notas": "Granate intenso, con reflejos púrpuras. Es un típico y bien logrado ejemplo de la variedad emblemática de la Argentina. Las notas aromáticas florales y frutadas (ciruela, cassis, frutilla) pueden ser fácilmente apreciadas. La armónica redondez obtenida se debe, en parte, a los jugosos taninos que le otorgan además suavidad un largo y agradable final de boca."
+    },
+    {
+    "id": 5,
+    "categoria": "Tinto",
+    "varietal": "Malbec",
+    "crianza": "12 meses roble francés",
+    "bodega": "Rutini wines",
+    "nombre": "Rutini Malbec",
+    "imagen": "Rutini-Malbec.webp",
+    "notas": "Rojo violáceo, con matices azulados. En nariz, se destaca una gran complejidad aromática: notas de ciruelas entremezcladas con especias que recuerdan a vainilla, anís, pimienta negra. y un fondo floral que recuerda a la flor de la violeta. En boca, se reafirman los acentos frutados, sus taninos envolventes y sedosos, bien presentes pero amables, destacan su personalidad y su gran complejidad."
+    },
+    {
+    "id": 6,
+    "categoria": "Tinto",
+    "varietal": "Malbec",
+    "crianza": "12 meses roble francés",
+    "bodega": "Rutini wines",
+    "nombre": "Encuentro Malbec",
+    "imagen": "Encuentro-Malbec.webp",
+    "notas": "Rojo granate intenso y concentrado, con destellos violáceos. La impetuosa nariz típica de la variedad regala además armonías florales (violeta) y notas de frutos rojos y negros frescos (cereza, cassis). En boca, los taninos se encuentran bien presentes, destacándose el cacao amargo y frutas maceradas. Intenso y complejo, es dueño de una muy lograda acidez."
+    },
+    {
+    "id": 7,
+    "categoria": "Tinto",
+    "varietal": "Cabernet Sauvignon",
+    "crianza": "12 meses roble francés",
+    "bodega": "Rutini wines",
+    "nombre": "dominio Cabernet Sauvignon",
+    "imagen": "Dominio-Cabernet-Sauvignon.webp",
+    "notas": "Rojo rubí brillante. Su nariz es muy aromática donde resaltan notas de frutos rojos como la frutilla y algún toque vegetal propio de los pimientos.En boca irrumpen los frutos cocidos en compota y especias, taninos bien marcados y un dejo mentolado."
+    },
+    {
+    "id": 8,
+    "categoria": "Tinto",
+    "varietal": "Cabernet Sauvignon",
+    "crianza": "7 meses roble francés",
+    "bodega": "Rutini wines",
+    "nombre": "Trumpeter Cabernet Sauvignon",
+    "imagen": "Trumpeter-Cabernet-Sauvignon.webp",
+    "notas": "Rubí intenso y profundo con matices violáceos. Nariz frutal y especiada que recuerda a frutos rojos maduros y a especias como la pimienta y el clavo de olor. Su perfil suave deja percibir los aromas a ciruelas maduras y cerezas negras, dejando un final de boca pleno y agradable."
+    },
+    {
+    "id": 9,
+    "categoria": "Tinto",
+    "varietal": "Cabernet Sauvignon",
+    "crianza": "14 meses roble francés",
+    "bodega": "Rutini wines",
+    "nombre": "Dominio Gran Cabernet Sauvignon",
+    "imagen": "Dominio-Gran-Cabernet-Sauvignon.webp",
+    "notas": "Rojo rubí brillante. En nariz muy aromático donde resaltan notas a fruta negra y el típico pimiento verde, propio de la variedad.Vigoroso en boca descubre sabores frutados y especiados, finalizando en un postgusto intenso y agradable."
+    },
+    {
+    "id": 10,
+    "categoria": "Tinto",
+    "varietal": "Cabernet Sauvignon",
+    "crianza": "12 meses roble francés",
+    "bodega": "Rutini wines",
+    "nombre": "Trumpeter Reserve Cabernet Sauvignon",
+    "imagen": "Trumpeter-Reserve-Cabernet-Sauvignon.webp",
+    "notas": "Rojo rubí brillante. En nariz muy aromático donde resaltan notas a fruta negra y el típico pimiento verde, propio de la variedad.Vigoroso en boca descubre sabores frutados y especiados, finalizando en un postgusto intenso y agradable."
+    },
+    {
+    "id": 11,
+    "categoria": "Tinto",
+    "varietal": "Cabernet Sauvignon",
+    "crianza": "18 meses roble francés",
+    "bodega": "Rutini wines",
+    "nombre": "Apartado Gran Cabernet Sauvignon",
+    "imagen": "Apartado-Gran-Cabernet-Sauvignon.webp",
+    "notas": "De color rojo intenso. En la nariz es complejo, elegante, con notas de oliva negra y un regaliz sutil. En la boca es un vino de gran complejidad, final de boca explosivo, equilibrado y con taninos que seducen e invitan a una nueva copa."
+    },
+    {
+    "id": 12,
+    "categoria": "Tinto",
+    "varietal": "Cabernet Sauvignon",
+    "crianza": "12 meses roble francés",
+    "bodega": "Rutini wines",
+    "nombre": "Encuentro Cabernet Sauvignon",
+    "imagen": "Encuentro-Cabernet-Sauvignon.webp",
+    "notas": "Rojo rubí medio, con matiz violáceo. La nariz descubre una tenue fragancia frutal, amena y matizada con notas de especias y ahumados. En el paladar, este vino derrama sus distintos tonos de sabor, en los que prevalece una carga de taninos que tapizan largamente la boca y aseguran un retrogusto firme y fresco."
+    }
+]
