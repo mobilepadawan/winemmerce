@@ -238,5 +238,75 @@
     "nombre": "Encuentro Brut Nature Pinot Noir",
     "imagen": "Encuentro-Brut-Nature-Pinot-Noir.webp",
     "notas": "Los límpidos tonos coral-cobrizo, con matices piel de cebolla, están atravesados por cordones de pequeñas burbujas finísimas y permanentes. La sutileza de sus aromas recuerdan a notas florales y frutas confitadas. Una sensación amplia y refrescante permanece en boca y denota el rastro vivaz de su magnífica acidez y el suave posgusto a frutos secos (avellana)."
+    },
+    {
+    "id": 25,
+    "categoria": "Espumantes",
+    "varietal": "Chardonnay, Pinot Noir",
+    "crianza": "18 meses sobre lías",
+    "bodega": "Rutini wines",
+    "nombre": "Dominio Extra Brut",
+    "imagen": "Dominio-Extra-Brut.webp",
+    "notas": "Dorado ámbar suave y brillante. Burbujas pequeñas y persistentes. Su delicada paleta aromática la forman dejos a fruta blanca y pan tostado. Fresco, atractivo y con buen volumen en boca."
+    },
+    {
+    "id": 26,
+    "categoria": "Espumantes",
+    "varietal": "Chardonnay, Pinot Noir",
+    "crianza": "24 meses sobre lías",
+    "bodega": "Rutini wines",
+    "nombre": "Rutini Extra Brut",
+    "imagen": "Rutini-Extra-Brut.webp",
+    "notas": "Dorado, matiz amarillo acerado. Burbuja pequeña y permanente. Aromas sutiles a frutos blancos frescos, frutos secos y pan brioche. En boca, desarrolla una delicada cremosidad que deja sabores frescos, limpios y finalmente frutados."
+    },
+    {
+    "id": 27,
+    "categoria": "Espumantes",
+    "varietal": "Malbec",
+    "crianza": "",
+    "bodega": "Rutini wines",
+    "nombre": "Trumpeter Extra Brut Rosé",
+    "imagen": "Trumpeter-Extra-Brut-Rose.webp",
+    "notas": "Rosado color salmón, con reflejos coral. Las burbujas son finas y continuas, apenas servido en la copa flauta. Se descubren alegres notas a fruta roja madura (guinda, frutilla) combinadas con otras de membrillos asados y pan tostado. El final de boca es persistente, fresco y frutado."
+    },
+    {
+    "id": 28,
+    "categoria": "Rosado",
+    "varietal": "Malbec",
+    "crianza": "2 meses de barrica y 2 meses sobre línas",
+    "bodega": "Rutini wines",
+    "nombre": "Trumpeter Reserve Rosé de Malbec",
+    "imagen": "Trumpeter-Reserve-Rose-de-Malbec.webp",
+    "notas": "El proceso de elaboración de este Rosé de Malbec es el utilizado en la Provenza (Sur de Francia), lográndose un rosado cristalino con reflejos rubí cobrizo.Un sutil perfil avainillado enmarca las notas a frutas rojas frescas (cereza, frutilla y grosella) cómo también encontramos elegantes notas florales que lo hacen distinto al resto. Fácil de beber, es amable y sofisticado. Fresco y suave en boca."
+    },
+    {
+    "id": 29,
+    "categoria": "Rosado",
+    "varietal": "Malbec",
+    "crianza": "6 meses el 100% del corte en roble francés tostado liviano",
+    "bodega": "Rutini wines",
+    "nombre": "Rutini Rosé de Malbec",
+    "imagen": "Rutini-Rose-de-Malbec.webp",
+    "notas": "Rosado, color piel de cebolla con matices cobrizos. Su color anuncia la primavera. En nariz regala amenas notas florales, sutiles frutos rojos y algunos frutos secos como almendra y nuez. El coco y la vainilla aparecen discretamente por el aporte roblizo.Complejo y distinguido, en boca se presenta fresco y con un gran volumen que le otorga un prolongado final."
+    },
+    {
+    "id": 30,
+    "categoria": "Blanco",
+    "varietal": "Gewürztraminer",
+    "crianza": "4 meses en roble francés",
+    "bodega": "Rutini wines",
+    "nombre": "Rutini Gewurztraminer",
+    "imagen": "Rutini-Gewurztraminer.webp",
+    "notas": "Amarillo brillante con tonalidades verdosas, muy vivaz. En nariz insinúa perfume de flores, agua de azahar, frutas blancas, pomelo y un toque especiado. Frutado en boca, regala un paladar etéreo y amable, muy consistente, con logrado equilibrio de acidez. Blanco complejo y sofisticado."
+    },
+    {
+    "id": 31,
+    "categoria": "Destilado",
+    "varietal": "Malbec",
+    "crianza": "",
+    "bodega": "Rutini wines",
+    "nombre": "Destilado de Orujo de Malbec - Grapa",
+    "imagen": "Rutini-Destilado-de-Orujo-de-Malbec-Grapa.webp",
+    "notas": "Mientras se desarrolla la fermentación de este Malbec, los orujos se van empapando de compuestos aromáticos fermentativos. Al llegar al descube, se separan los orujos (semillas y hollejos) del vino base y se llevan a columna de destilación. Mediante arrastre por vapor de agua, a las temperaturas adecuadas y en 3 destilaciones sucesivas, se van obteniendo los alcoholes y compuestos que le aportan una gran complejidad aromática y delicadeza a este destilado de orujo de Malbec. Es un destilado que une la elegancia de su bouquet ­floral con la equilibrada presencia de las más finas notas frutales, típicas del racimo paradigmático de la Argentina."
     }
 ]
