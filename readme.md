@@ -51,7 +51,7 @@ http://localhost:PORT/varietal/:param
 
 ## Bubbles
 
-The bubble wines are saved under the categoria _Espumantes_, in adition to they are grouped by the type of grape. You will get in the complete list of its category.
+The bubble wines are saved under the categoria _Espumantes_. In adition to they're grouped by the type of grape. You will get in the complete list of its category.
 
 ### More endpoints
 
