@@ -56,6 +56,11 @@ http://localhost:PORT/varietal/:param
 
 The bubble wines are saved under the categoria _Espumantes_. In adition to they're grouped by the type of grape. You will get in the complete list of its category.
 
+# Test the endpoints
+
+If you are using **Visual Studio Code** as a primary code editor, you can integrate on it the Thunder Client Extension. It works the same way of POSTMAN and many other options for testing purposes. I bring you an example of it through the following image:
+![Testing the endpoint](https://github.com/mobilepadawan/winemmerce/blob/master/images/thunder_client_sample.gif)
+
 ### More endpoints
 
 If you are looking for a fine tuning of its API, you can suggest another type of endpoints you are looking for for your project and I will add it ASAP.
