@@ -8,7 +8,9 @@ const vinos = wines()
 
 //Mensaje de bienvenida y uso de la API de Vinos
 app.get('/', (req, res) => {
-const bienvenida = {mensajes: "Bienvenido a la API de vinos.", uso: "Solicite los vinos a través de esta API filtrando por Categoría, Varietal, o Bodega. O ingresa /all, para obtener todas las botellas disponibles."}
+const bienvenida = {mensajes: "Bienvenido a la API de vinos.", 
+                    uso: "Solicite los vinos a través de esta API filtrando por Categoría, Varietal, o Bodega. O ingresa /all, para obtener todas las botellas disponibles.",
+                    copyright: "2022: Fernando Omar Luna - TW:@mobilepadawan - fernando@vidamobile.com.ar"}
 res.send(bienvenida)
 })
 
