@@ -20,3 +20,13 @@ You can check in the ** wines.js ** file the different categories available. For
 
 You can call the endpoint /varietal passing a parameter to get the kind of grape you want: Chardonnay, Malbec, Cabernet, Torrontes, etcetera.
 You don't need to specify a combined name for the varietal. IE: if you pass the Cabernet parameter and the list of wines have cabernet sauvignon and cabernet franc, you will get both of them. If you want only Franc, specify just 'Franc' in the parameter.
+
+## /all
+Calling the /all endpoint you will get the complete information about the wines available.
+
+## Bubbles
+The Spumant of bubble wines do not have its own category. They are grouped by the type of grape and you will get in the complete list of its category.
+
+### More endpoints
+
+If you are looking for a fine tuning of its API, you can suggest another type of endpoints you are looking for for your project and in the mid time, will add it. OR, better yet, you can modify this project creating all the options you are looking for.
