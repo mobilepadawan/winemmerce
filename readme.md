@@ -13,7 +13,10 @@ This folder contains the images about every bottle, referenced on the _imagen_ p
 # How to use it
 
 1. Download the Project and initialize it with NODE JS.
-2. You will available a couple of endpoints to query. Their names are: /categoria/:id - /all - /varietal/:id - /
+2. You will available a couple of endpoints to query. Their names are:
+   * ```/categoria/:name``` 
+   * ```/all```
+   * ```/varietal/:name```
 
 # Examples
 
