@@ -4,7 +4,7 @@ This is a simple Ecommerce website to sell wines. It's entirely built on Vanilla
 
 ## wines.json
 
-The file **wines.json** works as a sort of database with information about the wine labels. You can find information about the type of grape, category, time to maseration, name of label and a description about the flavor in mouth.
+The file __wines.json__ works as a sort of database with information about the wine labels. You can find information about the type of grape, category, time to maseration, name of label and a description about the flavor in mouth.
 
 ## images (folder)
 
