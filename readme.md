@@ -12,6 +12,12 @@ This folder contains the images about every bottle, referencing on every object 
 1. Download the Project and initialize it with NODE JS.
 2. You will available a couple of endpoints to query. Their names are: /categoria/:id - /all - /varietal/:id - /
 
+Example:
+``` JS
+http://localhost:PORT/all
+```
+
+
 ## /categoria/:id
 
 You can check in the ** wines.js ** file the different categories available. For example you can call /categoria/Blanco and you will get all the white wine labels. Using /categoria/Tinto, you'll get the Red wine labels, etcetera.
