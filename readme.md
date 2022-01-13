@@ -13,7 +13,10 @@ This folder contains the images about every bottle, referenced on the _imagen_ p
 # How to use it
 
 1. Download the Project and initialize it with NODE JS.
-2. You will available a couple of endpoints to query. Their names are: /categoria/:id - /all - /varietal/:id - /
+2. You will available a couple of endpoints to query. Their names are:
+   * ```/categoria/:name``` 
+   * ```/all```
+   * ```/varietal/:name```
 
 # Examples
 
@@ -25,16 +28,16 @@ http://localhost:PORT/all
 /* You will get the complete list of wines. */
 ```
 
-## /categoria/:id
+## categoria/:name
 
-You can check into the ** wines.js ** file the different categories available, calling the endpoint **categoria** and passing on it the category you are looking for. IE: ```/categoria/Blanco``` and you will get all the white wine labels, using ```/categoria/Tinto```, you'll get the Red wine labels, etcetera.
+You can check into the ** wines.js ** file the different categories available, calling the endpoint **categoria** and passing on it the category you are looking for. IE: ```/categoria/Blanco``` and you will get all the white wine labels. Also using ```/categoria/Tinto``` you'll get the Red wine labels, etcetera.
 
 ```js
 http://localhost:PORT/categoria/Blanco
 /* You will get the complete list of white wines. */
 ```
 
-## /varietal/:id
+## varietal/:name
 
 You can call the endpoint ```/varietal``` passing a parameter to get the kind of grape you want: _Chardonnay_, _Malbec_, _Cabernet_, _Torrontes_, etcetera.
 You don't need to specify a combined name for the varietal. IE: if you pass the _Cabernet_ parameter and the list of wines will include both of them: _cabernet sauvignon_ and _cabernet franc_. If you want only _Cabernet Franc_, specify just 'Franc' in the parameter or use the complete name _Cabernet Franc_ including it as a parameter of the JavaScript ```encodeURIComponent()``` method.
@@ -51,8 +54,9 @@ http://localhost:PORT/varietal/:param
 
 ## Bubbles
 
-The bubble wines are saved under the categoria _Espumantes_, in adition to they are grouped by the type of grape. You will get in the complete list of its category.
+The bubble wines are saved under the categoria _Espumantes_. In adition to they're grouped by the type of grape. You will get in the complete list of its category.
 
 ### More endpoints
 
-If you are looking for a fine tuning of its API, you can suggest another type of endpoints you are looking for for your project and I will add it ASAP. OR, better yet, you can modify this project creating all the options you are considering on.
+If you are looking for a fine tuning of its API, you can suggest another type of endpoints you are looking for for your project and I will add it ASAP.
+Or better, you can modify this project creating all the options to find, you are considering on.
