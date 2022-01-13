@@ -24,7 +24,7 @@ This folder contains the images about every bottle, referenced on the _imagen_ p
 Calling the ```/all``` endpoint you will get the complete information about the wines available.
 
 ```js
-http://localhost:PORT/all 
+GET http://localhost:PORT/all 
 /* You will get the complete list of wines. */
 ```
 
@@ -33,7 +33,7 @@ http://localhost:PORT/all
 You can check into the ** wines.js ** file the different categories available, calling the endpoint **categoria** and passing on it the category you are looking for. IE: ```/categoria/Blanco``` and you will get all the white wine labels. Also using ```/categoria/Tinto``` you'll get the Red wine labels, etcetera.
 
 ```js
-http://localhost:PORT/categoria/Blanco
+GET http://localhost:PORT/categoria/Blanco
 /* You will get the complete list of white wines. */
 ```
 
@@ -43,11 +43,11 @@ You can call the endpoint ```/varietal``` passing a parameter to get the kind of
 You don't need to specify a combined name for the varietal. IE: if you pass the _Cabernet_ parameter and the list of wines will include both of them: _cabernet sauvignon_ and _cabernet franc_. If you want only _Cabernet Franc_, specify just 'Franc' in the parameter or use the complete name _Cabernet Franc_ including it as a parameter of the JavaScript ```encodeURIComponent()``` method.
 
 ```js
-http://localhost:PORT/varietal/Malbec 
+GET http://localhost:PORT/varietal/Malbec 
 /* You will get the complete list of Malbec grape wines. */
 
 const param = encodeURIComponent('Cabernet Franc')
-http://localhost:PORT/varietal/:param 
+GET http://localhost:PORT/varietal/:param 
 /* You will get the complete URL encoded to find a combined name on the wines database */
 ```
 
