@@ -25,7 +25,7 @@ http://localhost:PORT/all
 /* You will get the complete list of wines. */
 ```
 
-## /categoria/:id
+## categoria/:name
 
 You can check into the ** wines.js ** file the different categories available, calling the endpoint **categoria** and passing on it the category you are looking for. IE: ```/categoria/Blanco``` and you will get all the white wine labels. Also using ```/categoria/Tinto``` you'll get the Red wine labels, etcetera.
 
@@ -34,7 +34,7 @@ http://localhost:PORT/categoria/Blanco
 /* You will get the complete list of white wines. */
 ```
 
-## /varietal/:id
+## varietal/:name
 
 You can call the endpoint ```/varietal``` passing a parameter to get the kind of grape you want: _Chardonnay_, _Malbec_, _Cabernet_, _Torrontes_, etcetera.
 You don't need to specify a combined name for the varietal. IE: if you pass the _Cabernet_ parameter and the list of wines will include both of them: _cabernet sauvignon_ and _cabernet franc_. If you want only _Cabernet Franc_, specify just 'Franc' in the parameter or use the complete name _Cabernet Franc_ including it as a parameter of the JavaScript ```encodeURIComponent()``` method.
