@@ -41,7 +41,7 @@ http://localhost:PORT/varietal/Malbec
 
 
 ## Bubbles
-The Spumant of bubble wines do not have its own category. They are grouped by the type of grape and you will get in the complete list of its category.
+The bubble wines are saved under the categoria 'Espumantes', among they are grouped by the type of grape and you will get in the complete list of its category.
 
 ### More endpoints
 
