@@ -27,7 +27,7 @@ http://localhost:PORT/all
 
 ## /categoria/:id
 
-You can check into the ** wines.js ** file the different categories available, calling the endpoint **categoria** and passing on it the category you are looking for. IE: ```/categoria/Blanco``` and you will get all the white wine labels, using ```/categoria/Tinto```, you'll get the Red wine labels, etcetera.
+You can check into the ** wines.js ** file the different categories available, calling the endpoint **categoria** and passing on it the category you are looking for. IE: ```/categoria/Blanco``` and you will get all the white wine labels. Also using ```/categoria/Tinto``` you'll get the Red wine labels, etcetera.
 
 ```js
 http://localhost:PORT/categoria/Blanco
