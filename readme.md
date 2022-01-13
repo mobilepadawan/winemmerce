@@ -58,7 +58,8 @@ The bubble wines are saved under the categoria _Espumantes_. In adition to they'
 
 # Test the endpoints
 
-If you are using **Visual Studio Code** as a primary code editor, you can integrate on it the Thunder Client Extension. It works the same way of POSTMAN and many other options for testing purposes. I bring you an example of it through the following image:
+If you are using **Visual Studio Code** as a primary code editor, you can integrate on it the Thunder Client Extension. It works the same way of POSTMAN and many other options for testing purposes. Check out the following image where you'll find how to use ![Thunder Client](https://www.thunderclient.com) easily:
+
 ![Testing the endpoint](https://github.com/mobilepadawan/winemmerce/blob/master/images/thunder_client_sample.gif)
 
 ### More endpoints
