@@ -56,4 +56,4 @@ The bubble wines are saved under the categoria _Espumantes_. In adition to they'
 ### More endpoints
 
 If you are looking for a fine tuning of its API, you can suggest another type of endpoints you are looking for for your project and I will add it ASAP.
-Or better, you can modify this project creating all the options you are considering on.
+Or better, you can modify this project creating all the options to find, you are considering on.
