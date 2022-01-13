@@ -41,7 +41,7 @@ http://localhost:PORT/varietal/Malbec
 
 
 ## Bubbles
-The bubble wines are saved under the categoria 'Espumantes', among they are grouped by the type of grape and you will get in the complete list of its category.
+The bubble wines are saved under the categoria __Espumantes__, among they are grouped by the type of grape and you will get in the complete list of its category.
 
 ### More endpoints
 
