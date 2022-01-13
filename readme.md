@@ -15,7 +15,7 @@ This folder contains the images about every bottle, referencing on every object 
 Example:
 
 ## /all
-``` JS
+``` JavaScript
 http://localhost:PORT/all 
 /* You will get the complete list of wines. */
 ```
