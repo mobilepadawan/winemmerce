@@ -6,9 +6,14 @@ This is a simple Ecommerce website to sell wines. It's entirely built on Vanilla
 
 The file __wines.json__ works as a sort of database with information about the wine labels. You can find information about the type of grape, category, time to maseration, name of label and a description about the flavor in mouth.
 
+# HTTP Methods
+
+I just include ```GET``` method. ```POST```, ```PUT```, ```DELETE``` and ```PATCH``` are not necessary here. This is just a mockup for fill a sample. 
+In the near future I'm thinking to add an option to POST new wines, writing a JSON file included in this project, using the JavaScript ```FileServer object()```.
+
 ## images (folder)
 
-This folder contains the images about every bottle, referenced on the _imagen_ property in every object of the JSON file. The extension used in images is .webp.
+This folder contains the images about every bottle, referenced on the _imagen_ property in every object of the JSON file. The extension used in images is .webp. I am not serving images with the results of query. You can think the correct way to obtain it according to the results page. Maybe in the future I can pass the absolute URL to the image, but not for now.
 
 # How to use it
 
@@ -56,9 +61,9 @@ GET http://localhost:PORT/varietal/:param
 
 The bubble wines are saved under the categoria _Espumantes_. In adition to they're grouped by the type of grape. You will get in the complete list of its category.
 
-# Test the endpoints
+# Testing the endpoints
 
-If you are using **Visual Studio Code** as a primary code editor, you can integrate on it the Thunder Client Extension. It works the same way of POSTMAN and many other options for testing purposes. Check out the following image where you'll find how to use [Thunder Client](https://www.thunderclient.com) easily:
+If you are using **Visual Studio Code** as your primary code editor, you can integrate on it the Thunder Client Extension. It works the same way of POSTMAN and many other options for testing purposes. Check out the following image where you'll find how to use [Thunder Client](https://www.thunderclient.com) easily:
 
 ![Testing the endpoint](https://github.com/mobilepadawan/winemmerce/blob/master/images/thunder_client_sample.gif)
 
