@@ -1,0 +1,28 @@
+{
+  "name": "winemmerce",
+  "version": "1.0.0",
+  "description": "A winery API for sample purposes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobilepadawan/winemmerce.git"
+  },
+  "keywords": [
+    "winery",
+    "winnemerce",
+    "API"
+  ],
+  "author": "Fernando Luna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mobilepadawan/winemmerce/issues"
+  },
+  "homepage": "https://github.com/mobilepadawan/winemmerce#readme",
+  "dependencies": {
+    "env": "^0.0.2",
+    "express": "^4.17.2"
+  }
+}
