@@ -17,14 +17,14 @@ Example:
 ## /all
 ``` JS
 http://localhost:PORT/all 
-/*You will get the complete list of wines. */
+/* You will get the complete list of wines. */
 ```
 
 ## /categoria/:id
 You can check in the ** wines.js ** file the different categories available. For example you can call /categoria/Blanco and you will get all the white wine labels. Using /categoria/Tinto, you'll get the Red wine labels, etcetera.
 ``` JS
 http://localhost:PORT/categoria/Blanco
-/*You will get the complete list of white wines. */
+/* You will get the complete list of white wines. */
 ```
 
 ## /varietal/:id
@@ -32,7 +32,7 @@ You can call the endpoint /varietal passing a parameter to get the kind of grape
 You don't need to specify a combined name for the varietal. IE: if you pass the Cabernet parameter and the list of wines have cabernet sauvignon and cabernet franc, you will get both of them. If you want only Franc, specify just 'Franc' in the parameter.
 ``` JS
 http://localhost:PORT/varietal/Malbec 
-/*You will get the complete list of Malbec grape wines. */
+/* You will get the complete list of Malbec grape wines. */
 ```
 
 
