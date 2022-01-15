@@ -8,8 +8,8 @@ const vinos = wines()
 
 //Mensaje de bienvenida y uso de la API de Vinos
 app.get('/', (req, res) => {
-const bienvenida = {mensajes: "Bienvenido a la API de vinos.", 
-                    uso: "Solicite los vinos a través de esta API filtrando por Categoría, Varietal, o Bodega. O ingresa /all, para obtener todas las botellas disponibles.",
+const bienvenida = {welcome: "Bienvenido a la API de vinos.", 
+                    howtouse: "Solicite los vinos a través de esta API filtrando por Categoría, Varietal, o Nombre del vino. O ingresa /all, para obtener todas las botellas disponibles.",
                     copyright: "2022: Fernando Omar Luna - TW:@mobilepadawan - fernando@vidamobile.com.ar"}
 res.send(bienvenida)
 })
@@ -37,10 +37,10 @@ app.get('/varietal/:vari', (req, res) => {
 
 //Filtro por nombre del vino, especificando parte del mismo por parámetro
 app.get('/nombre/:name', (req, res) => {
-    const name = vinos.filter(c => c.nombre.includes(req.params.name))
-    if (name.length == 0)
+    const nombre = vinos.filter(c => c.nombre.includes(req.params.name))
+    if (nombre.length == 0)
     return res.send({error: "No se encontró el nombre especificado."})
-    res.send(name)
+    res.send(nombre)
 })
 
 app.listen(port, ()=> {
