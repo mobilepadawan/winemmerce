@@ -35,6 +35,14 @@ app.get('/varietal/:vari', (req, res) => {
     res.send(varietal)
 })
 
+//Filtro por Varietal de vino, especificando el mismo por parámetro
+app.get('/nombre/:name', (req, res) => {
+    const name = vinos.filter(c => c.nombre.includes(req.params.name))
+    if (name.length == 0)
+    return res.send({error: "No se encontró el nombre especificado."})
+    res.send(name)
+})
+
 app.listen(port, ()=> {
 console.log(`Servidor disponible en el puerto ${port}`)
 })
