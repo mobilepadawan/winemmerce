@@ -22,6 +22,7 @@ This folder contains the images about every bottle, referenced on the _imagen_ p
    * ```/categoria/:name``` 
    * ```/all```
    * ```/varietal/:name```
+   * ```/nombre/:name```
 
 # Examples
 
@@ -55,6 +56,15 @@ const param = encodeURIComponent('Cabernet Franc')
 GET http://localhost:PORT/varietal/:param 
 /* You will get the complete URL encoded to find a combined name on the wines database */
 ```
+
+## nombre/:name
+
+You can call the endpoint ```/varietal``` passing a parameter to get the kind of grape you want: _Chardonnay_, _Malbec_, _Cabernet_, _Torrontes_, etcetera.
+You don't need to specify a combined name for the varietal. IE: if you pass the _Cabernet_ parameter and the list of wines will include both of them: _cabernet sauvignon_ and _cabernet franc_. If you want only _Cabernet Franc_, specify just 'Franc' in the parameter or use the complete name _Cabernet Franc_ including it as a parameter of the JavaScript ```encodeURIComponent()``` method.
+
+```js
+GET http://localhost:PORT/varietal/Malbec 
+/* You will get the complete list of Malbec grape wines. */
 
 
 ## Bubbles
