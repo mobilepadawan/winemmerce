@@ -2,9 +2,11 @@
 
 This is a simple Ecommerce website to sell wines. It's entirely built on Vanilla JavaScript.
 
+
 ## wines.json
 
 The file __wines.json__ works as a sort of database with information about the wine labels. You can find information about the type of grape, category, time to maseration, name of label and a description about the flavor in mouth.
+
 
 # HTTP Methods
 
@@ -15,6 +17,7 @@ In the near future I'm thinking to add an option to POST new wines, writing a JS
 
 This folder contains the images about every bottle, referenced on the _imagen_ property in every object of the JSON file. The extension used in images is .webp. I am not serving images with the results of query. You can think the correct way to obtain it according to the results page. Maybe in the future I can pass the absolute URL to the image, but not for now.
 
+
 # How to use it
 
 1. Download the Project and initialize it with NODE JS.
@@ -23,6 +26,7 @@ This folder contains the images about every bottle, referenced on the _imagen_ p
    * ```/all```
    * ```/varietal/:name```
    * ```/nombre/:name```
+
 
 # Examples
 
@@ -34,6 +38,7 @@ GET http://localhost:PORT/all
 /* You will get the complete list of wines. */
 ```
 
+
 ## categoria/:name
 
 You can check into the ** wines.js ** file the different categories available, calling the endpoint **categoria** and passing on it the category you are looking for. IE: ```/categoria/Blanco``` and you will get all the white wine labels. Also using ```/categoria/Tinto``` you'll get the Red wine labels, etcetera.
@@ -42,6 +47,7 @@ You can check into the ** wines.js ** file the different categories available, c
 GET http://localhost:PORT/categoria/Blanco
 /* You will get the complete list of white wines. */
 ```
+
 
 ## varietal/:name
 
@@ -57,6 +63,7 @@ GET http://localhost:PORT/varietal/:param
 /* You will get the complete URL encoded to find a combined name on the wines database */
 ```
 
+
 ## nombre/:name
 
 You can call the endpoint ```/nombre``` passing a parameter to get a list of bottles filtered by part of their name: _Trumpeter_, _Ruttini_, etcetera.
@@ -67,15 +74,18 @@ GET http://localhost:PORT/nombre/Ruttini
 /* You will get the complete list of wines labeled as Ruttini. */
 ```
 
+
 ## Bubbles
 
 The bubble wines are saved under the categoria _Espumantes_. In adition to they're grouped by the type of grape. You will get in the complete list of its category.
+
 
 # Testing the endpoints
 
 If you are using **Visual Studio Code** as your primary code editor, you can integrate on it the Thunder Client Extension. It works the same way of POSTMAN and many other options for testing purposes. Check out the following image where you'll find how to use [Thunder Client](https://www.thunderclient.com) easily:
 
 ![Testing the endpoint](https://github.com/mobilepadawan/winemmerce/blob/master/images/thunder_client_sample.gif)
+
 
 ### More endpoints
 
