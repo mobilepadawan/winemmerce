@@ -59,12 +59,12 @@ GET http://localhost:PORT/varietal/:param
 
 ## nombre/:name
 
-You can call the endpoint ```/varietal``` passing a parameter to get the kind of grape you want: _Chardonnay_, _Malbec_, _Cabernet_, _Torrontes_, etcetera.
-You don't need to specify a combined name for the varietal. IE: if you pass the _Cabernet_ parameter and the list of wines will include both of them: _cabernet sauvignon_ and _cabernet franc_. If you want only _Cabernet Franc_, specify just 'Franc' in the parameter or use the complete name _Cabernet Franc_ including it as a parameter of the JavaScript ```encodeURIComponent()``` method.
+You can call the endpoint ```/nombre``` passing a parameter to get a list of bottles filtered by part of their name: _Trumpeter_, _Ruttini_, etcetera.
+You don't need to specify a combined name. IE: if you pass the _Reserve_ parameter and the list of wines will include all the name that includes _Reserve_ as part of it. If you want to get an exact label, you can add a parameter as _Rutini Rosé de Malbec_, and you should including it into the JavaScript ```encodeURIComponent()``` method.
 
 ```js
-GET http://localhost:PORT/varietal/Malbec 
-/* You will get the complete list of Malbec grape wines. */
+GET http://localhost:PORT/nombre/Ruttini 
+/* You will get the complete list of wines labeled as Ruttini. */
 
 
 ## Bubbles
