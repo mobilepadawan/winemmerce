@@ -87,7 +87,7 @@ If you are using **Visual Studio Code** as your primary code editor, you can int
 ![Testing the endpoint](https://github.com/mobilepadawan/winemmerce/blob/master/images/thunder_client_sample.gif)
 
 
-### More endpoints
+## More endpoints
 
 If you are looking for a fine tuning of its API, you can suggest another type of endpoints you are looking for for your project and I will add it ASAP.
 Or better, you can modify this project creating all the options to find, you are considering on.
